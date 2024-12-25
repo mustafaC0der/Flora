@@ -1,0 +1,31 @@
+# Automatically detect text files and perform LF normalization
+* text=auto
+
+# C# source code files
+*.cs text
+
+# Visual Studio solution and project files
+*.sln text eol=lf
+*.csproj text eol=lf
+*.vcxproj text eol=lf
+*.targets text eol=lf
+*.props text eol=lf
+
+# Binary files (no end-of-line normalization)
+*.exe binary
+*.dll binary
+*.pdb binary
+*.lib binary
+*.obj binary
+*.xaml binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+
+# Ignore temporary or build files
+[Dd]ebug/ binary
+[Dd]ebugPublic/ binary
+[Dd]ist/ binary
+[Dd]ebugAll/ binary
+[Dd]ebugCache/ binary
