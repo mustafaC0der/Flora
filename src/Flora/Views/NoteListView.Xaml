@@ -1,7 +1,0 @@
-<UserControl x:Class="Flora.Views.NoteListView"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <ListBox ItemsSource="{Binding Notes}" 
-             SelectedItem="{Binding SelectedNote}" 
-             DisplayMemberPath="Title" />
-</UserControl>
